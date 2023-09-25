@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::*;
-#[path = "../../conversion.rs"]
 mod conversion;
 use crate::conversion::split_u32;
 const CANNOT_WRITE: &str = "ERROR: Could not write to output file.";
